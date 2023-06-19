@@ -1,0 +1,56 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.card{
+  width: 450px;
+  height: 350px;
+  display: flex;
+  margin: 0px 70px;
+  text-align: center;
+
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 140px;
+}
+
+.input_box{
+  display: flex;
+  position: absolute;
+  left: 42%;
+  top: 18%;
+  border-radius: 8px;
+  width: 250px;
+  border: 2px solid;
+  height: 27px;
+  padding: 12px 10px;
+  font-size: 17px;
+}
+
+.join_btn{
+  position: absolute;
+  left: 704px;
+  top: 22%;
+  padding: 4px;
+  width: 100px;
+  font-weight: bold;
+  margin: 10px;
+  border: 2px solid;
+  border-radius: 20px;
+  background-color: cadetblue;
+  font-size: 18px;
+}
+
+.join_btn:hover{
+  background-color: rgb(4, 61, 42);
+}
+
+.heading{display: flex;
+justify-content: center;
+text-align: center;
+margin: 20px;}
